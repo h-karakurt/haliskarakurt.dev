@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import TicTacToe from '../components/tic-tac-toe'
 
 export default function Home() {
   
@@ -17,7 +16,6 @@ export default function Home() {
       <main className={styles.main}>
           <span>Halis Karkurt</span>
           
-          {/* <TicTacToe/> */}
       </main>
     </div>
   )
