@@ -1,0 +1,7 @@
+.row{
+  display: flex;
+  background-color: blueviolet;
+}
+.row>.col{
+  padding: 50px;
+}
