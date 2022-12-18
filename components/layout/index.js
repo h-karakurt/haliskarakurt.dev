@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import Header from 'components/fallout/header/index'
-import BottomBar from 'components/fallout/BottomBar/index'
+import BottomBar from 'components/fallout/bottomBar/index'
 
 import styles from './styles.module.scss'
 
