@@ -1,0 +1,28 @@
+.container{
+    padding: 4px 12px;
+    color: var(--green-3);
+    
+    .menuItems{
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: bold;
+        border-bottom: 3px solid var(--green-3);
+
+        .active{
+            position: relative;
+            z-index: 2;
+            
+            &::after{
+                height: 14px;
+                width: 95%;
+                content: "";
+                position: absolute;
+                top: 9px;
+                right: 1px;
+                border-right: 2px solid green;
+                border-left: 2px solid green;
+                border-bottom: 3px solid black;
+            }
+        }
+    }
+}
