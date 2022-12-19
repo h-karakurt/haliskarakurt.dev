@@ -12,8 +12,8 @@ export default function Home() {
       
       <div className={styles.menuItems}>
         <span className={router.pathname == '/' ? styles.active : null}><Link href="/">{router.pathname == "/" ? "- INFO -" : "INFO"}</Link></span>
-        <span className={router.pathname == '/stat' ? styles.active : null}><Link href="/">{router.pathname == "/stat" ? "- STAT -" : "STAT"}</Link></span>
-        <span className={router.pathname == '/contact' ? styles.active : null}><Link href="/">{router.pathname == "/contact" ? "- CONTACT -" : "CONTACT"}</Link></span>
+        <span className={router.pathname == '/stat' ? styles.active : null}><Link href="/stat">{router.pathname == "/stat" ? "- STAT -" : "STAT"}</Link></span>
+        <span className={router.pathname == '/contact' ? styles.active : null}><Link href="/contact">{router.pathname == "/contact" ? "- CONTACT -" : "CONTACT"}</Link></span>
         <span>CV</span>
       </div>
 
