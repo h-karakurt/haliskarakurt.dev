@@ -17,12 +17,10 @@ return (
             <link rel="icon" href="/favicon.ico" />
         </Head>
         
-        <main className={styles.main}>
+        <main className={`${styles.main} ${fallout.className}`}>
             <div className={styles.borderedContainer}>
                 <Header/>
-                <div className={fallout.className}>
-                    {children}
-                </div>
+                {children}
                 <BottomBar/>
             </div>
         </main>
