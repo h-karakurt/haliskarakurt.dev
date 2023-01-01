@@ -4,8 +4,6 @@ import Header from 'components/fallout/header/index'
 import BottomBar from 'components/fallout/bottomBar/index'
 
 import styles from './styles.module.scss'
-import localFont from '@next/font/local'
-const fallout = localFont({ src: '../../fonts/fallout/fallout_text.woff2' })
 
 export default function Layout({ children}) {
   
@@ -17,7 +15,7 @@ return (
             <link rel="icon" href="/favicon.ico" />
         </Head>
         
-        <main className={`${styles.main} ${fallout.className}`}>
+        <main className={`${styles.main}`}>
             <div className={styles.borderedContainer}>
                 <Header/>
                 {children}
