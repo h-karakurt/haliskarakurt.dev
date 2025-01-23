@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <Layout>
     
+    
       <div className={styles.container}>
         
         <div className={styles.text}>
